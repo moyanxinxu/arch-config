@@ -50,6 +50,7 @@ sudo mkfontscale && mkfontdir && fc-cache -fv
 - [Transparent Window Moving](https://extensions.gnome.org/extension/1446/transparent-window-moving/)
 - [Desktop Icons NG (DING)](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
 - [Window Is Ready - Notification Remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
+- [Lock-keys](https://extensions.gnome.org/extension/36/lock-keys/)
 
 ## Python相关环境
 
