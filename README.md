@@ -109,6 +109,12 @@ source /opt/miniconda3/bin/activate root #激活conda环境
 source /opt/miniconda3/bin/deactivate root # 关闭conda环境
 ```
 
+#### 取消miniconda自动激活环境
+
+```bash
+conda config --set auto_activate_base false
+```
+
 ## 系统细节
 
 ### 光标
