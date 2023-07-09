@@ -126,6 +126,22 @@ conda config --set auto_activate_base false
 
 ## 系统细节
 
+### grub默认启动系统
+
+```bash
+sudo vim /etc/default/grub
+```
+
+```txt
+#GURB_DEFAULT=0
+GRUB_DEFAULT=saved
+GRUB_SAVEDEFAULT=true
+```
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ### 光标
 
 ```bash
