@@ -77,6 +77,11 @@ mirrors =http://pypi.douban.com/simple/
 trusted-host =pypi.douban.com
 ```
 
+### pip指定代理源安装示例
+```bash
+pip install torch -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ### Conda 换源
 
 ```bash
