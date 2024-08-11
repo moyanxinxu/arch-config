@@ -1,0 +1,79 @@
+site_name: 自有阁
+site_author: moyanxinxu
+site_description: 电脑配置备忘录📕
+repo_url: https://github.com/moyanxinxu/os-config
+edit_uri: edit/main/docs/
+
+plugins:
+    - glightbox
+    - search
+    - minify:
+        minify_html: true
+        minify_js: true
+        minify_css: true
+        htmlmin_opts:
+          remove_comments: true
+        cache_safe: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      linenums: true
+      use_pygments: true
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: True
+  - pymdownx.superfences
+theme:
+  features:
+    - content.code.copy
+    - header.autohide
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
+    - search.suggest
+    - search.share
+    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+  icon:
+    annotation: material/arrow-right-circle
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      primary: teal
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 亮色模式
+nav:
+  - 目录: 'index.md'
+  - 通用: 'commen.md'
+  - Archlinux配置: 'arch-config.md'
+  - Macos配置: 'mac-config.md'
