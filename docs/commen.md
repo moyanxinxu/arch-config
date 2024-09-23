@@ -41,7 +41,7 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 ## Conda 换源
 
 ```bash
-cd ～
+cd ~
 vim .condarc
 ```
 
